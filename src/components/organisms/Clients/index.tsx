@@ -13,8 +13,8 @@ const clients = [
 
 const Clients: FC<ClientsProps> = ({}) => {
 	return (
-		<div className="relative z-10">
-			<div className="text-lg text-muted-foreground">
+		<div className="relative z-10 ">
+			<div className="text-lg text-muted-foreground text-center mt-2">
 				Companies we helped grow
 			</div>
 			<div className="mt-8 flex flex-row justify-between">

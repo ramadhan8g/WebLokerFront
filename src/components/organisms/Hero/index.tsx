@@ -6,9 +6,9 @@ interface HeroProps {}
 
 const Hero: FC<HeroProps> = ({}) => {
 	return (
-		<div className="flex flex-row justify-between items-center">
-			<div className="w-1/2">
-				<div className="text-7xl font-semibold w-max relative">
+		<div className="container flex lg:flex-row z-0 flex-col justify-between items-center w-full  mx-auto ">
+			<div className="lg:w-1/2 w-full lg:mr-0 mr-[80]">
+				<div className="lg:text-7xl text-5xl font-semibold w-max relative">
 					Discover <br /> more than <br />{" "}
 					<span className="text-primary">5000+ Jobs</span>
 				</div>

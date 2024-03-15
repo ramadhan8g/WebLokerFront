@@ -36,7 +36,7 @@ const SignInPage: FC<SignInPageProps> = ({}) => {
 			...val,
 			redirect: false,
 		});
-
+	
 		if (authenticated?.error) {
 			toast({
 				title: "Error",
@@ -45,7 +45,6 @@ const SignInPage: FC<SignInPageProps> = ({}) => {
 
 			return;
 		}
-
 		router.push("/");
 	};
 

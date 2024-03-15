@@ -18,7 +18,7 @@ export default function Home() {
 					fill
 				/>
 			</div>
-			<div className="px-32 mb-10">
+			<div className="lg:px-32 px-0 mb-10">
 				<Hero />
 				<Clients />
 				<Category />

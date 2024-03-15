@@ -30,6 +30,7 @@ export default function FindJobsPage() {
 	};
 
 	useEffect(() => {
+		// klo categories use nilai brubah supaya bsa hit ulang update data
 		mutate();
 	}, [categories]);
 

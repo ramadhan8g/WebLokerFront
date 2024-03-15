@@ -1,7 +1,7 @@
 import { NextAuthOptions } from "next-auth";
 
 import CredentialsProvider from "next-auth/providers/credentials";
-import prisma from "../../../../lib/prisma";
+import prisma from "../../../../../lib/prisma";
 import { comparePassword } from "@/lib/utils";
 import NextAuth from "next-auth/next";
 
@@ -56,7 +56,7 @@ export const authOptions: NextAuthOptions = {
 		},
 		async session({ session, token }) {
 			session.user.id = token.id;
-
+			console.log(session)
 			return session;
 		},
 	},

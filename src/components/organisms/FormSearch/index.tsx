@@ -17,7 +17,7 @@ interface FormSearchProps {}
 const FormSearch: FC<FormSearchProps> = ({}) => {
 	return (
 		<>
-			<div className="mt-6 p-4 bg-background shadow-md inline-flex items-center gap-4 relative w-max z-10">
+			<div className="mt-6 p-4 bg-slate-50 shadow-md inline-flex items-center gap-4 relative lg:w-max w-full z-10">
 				<div className="inline-flex gap-3 items-center">
 					<AiOutlineSearch className="w-6 h-6" />
 					<Input
